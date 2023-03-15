@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="personalLoan.css">
+    <title>Personal loan application</title>
+    </style>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Personal Loan App</title>
+      </head>
+
+      <body>
+        <h1>Personal Loan App</h1>
+        <form>
+          <input type="text" id="loanAmount"  placeholder="loan amount"/><br /><br />
+           <input type="text" id="interestRate"  placeholder="interest rate in %"/><br /><br />
+          <input type="text" id="loanTerm" placeholder="loan term "/><br /><br />
+          <input
+            type="button"
+            value="Calculate"
+            onclick="calculateLoan()"
+          /><br /><br />
+        </form>
+        <p id="monthlyRepayment"></p>
+
+        <script src="personaloan.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
